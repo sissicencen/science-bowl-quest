@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#182f50">
+  <meta name="description" content="Practice science, learn why, and build confidence for science quiz competitions. An original, offline-friendly study app for grades 4–6.">
+  <meta name="color-scheme" content="light">
+  <title>Science Bowl Quest — Learn. Think. Discover.</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon-192.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" id="home-link" aria-label="Science Bowl Quest home">
+        <span class="brand-icon" aria-hidden="true">✦</span>
+        <span>Science Bowl <strong>Quest</strong></span>
+      </button>
+      <nav aria-label="Main navigation">
+        <button class="nav-button active" data-view="home">Home</button>
+        <button class="nav-button" data-view="progress">My Progress</button>
+        <button class="nav-button" data-view="about">About</button>
+      </nav>
+    </header>
+    <main id="app" tabindex="-1" aria-live="polite"></main>
+    <footer class="footer"><span>Made for curious minds · Grades 4–6</span><span>100% free · No login · Progress stays on this device · <a href="./privacy.html">Privacy Policy</a></span></footer>
+  </div>
+  <script src="./questions.js" defer></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>
